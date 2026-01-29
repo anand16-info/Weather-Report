@@ -1,0 +1,49 @@
+/* basic page setup */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background 0.5s ease;
+}
+
+/* main box */
+.appBox {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+/* input and button */
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* result text */
+.resultBox {
+    margin-top: 15px;
+}
+
+/* background for hot weather */
+.hotWeather {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+/* background for cold weather */
+.coldWeather {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
